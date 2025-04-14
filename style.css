@@ -14,10 +14,7 @@ img{max-width:100%;}
     margin:0 auto;
     padding:0 4%;
 }
-.rogo{
-    width:210px;
-    margin-top:14px;
-}
+
 .page-header{
     display:flex;
     justify-content:space-between;
@@ -44,22 +41,21 @@ img{max-width:100%;}
     margin:10px 0 42px;
 }
 #home{
-    background-image: url("../images/car-2000px.jpg");
+    background-image: url("../image/car-2000px.jpg");
     min-height:100vh;
-    background-color:black;
 }
 .big-bg{
     background-size: cover;
     background-position:center top;
 
 }
-.page-title{
+h1{
     font-family:'Philosopher',serif;
-    font-size:5rem;
+    font-size:4rem;
     font-weight:normal;
-    text-transform:uppercase;
 
 }
+
 main p{
     font-size:1.125rem;
     margin:10px 0 42px;
