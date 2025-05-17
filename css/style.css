@@ -47,10 +47,12 @@
 
   .about {
     background: #333;
+    padding:3em;
   }
   .about-content {
     display: flex;
     justify-content: center;
+    margin:30px;
   }
   .about img {
     width: 150px;
@@ -90,7 +92,7 @@
   }
   .contact {
     background: #555;
-    padding: 2em;
+    padding: 3em;
   }
   .contact form {
     display: flex;
