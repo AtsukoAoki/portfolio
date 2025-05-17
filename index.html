@@ -2,29 +2,29 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Creation and Destruction</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="top-header">
+
+  <header>
     <nav>
       <ul>
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">GARALLY</a></li>
-        <li><a href="#">CONTACT</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#gallery">GALLERY</a></li>
+        <li><a href="#contact">CONTACT</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section class="hero">
-      <h1>Creation and <span>Destruction</span></h1>
+    <section class="title">
+      <h1><span>Creation</span> and <span>Destruction</span></h1>
     </section>
 
-    <section class="gallery">
-      <div class="grid">
-        <img src="image/pIMG_0017.png" alt="">
+    <section id="gallery" class="gallery-grid">
+      <!-- 画像を配置 -->
+      <img src="image/pIMG_0017.png" alt="">
         <img src="image/car-2000px.jpg" alt="">
         <img src="image/pIMG_0021.png" alt="">
         <img src="image/pIMG_0098.png" alt="">
@@ -38,35 +38,32 @@
         <img src="image/pIMG_0386.png" alt="">
         <img src="image/pIMG_0209.png" alt="">
         <img src="image/pIMG_3027.png" alt="">
-        <!-- 必要な数だけ繰り返し -->
-      </div>
+      <!-- 必要に応じて増やす -->
     </section>
 
-    <section class="about">
+    <section id="about" class="about">
       <h2>ABOUT</h2>
       <div class="about-content">
-        <div class="timeline">
-            <p>1977　岐阜県生まれ</p>
-            <p>1996　大阪で学生時代を過ごす</p>
-            <p>2000　スケルトンMACを購入　趣味サイト制作に没頭する</p>
-            <p>2004　スチール撮影でロケ三昧</p>
-            <p>2005　勤務先が倒産　否応なくフリーランスカメラマンに転向</p>
-            <p>2008　写真では食うに食えず、看板デザインをかじる</p>
-            <p>2009　ECサイト制作　新規立ち上げから運営管理まで携わる</p>
-            <p>2019　のぼり旗や横断幕などデザイン制作に携わる</p>
+        <div class="bio">
+          <ul>
+            <li>1977 愛媛県生まれ</li>
+            <li>2000 スカンジナビア航空の撮影で北欧へ</li>
+            <li>2003 アジア各国を撮影</li>
+            <li>2008 ECサイト構築</li>
+            <li>2019 小型ドリップ機構などのデザイン</li>
+          </ul>
         </div>
         <div class="skills">
-          <ul>
-            <li>撮影編集処理</li>
-            <li>コーディング</li>
-            <li>サイト制作</li>
-            <li>CMS導入</li>
-            <li>DTPデザイン</li>
-            <li>バナー制作</li>
-          </ul>
+          <div class="circle">撮影<br>編集処理</div>
+          <div class="circle">コーディング</div>
+          <div class="circle">サイト制作</div>
+          <div class="circle">バナー制作</div>
+          <div class="circle">CMS導入</div>
+          <div class="circle">DTPデザイン</div>
         </div>
       </div>
     </section>
   </main>
+
 </body>
 </html>
