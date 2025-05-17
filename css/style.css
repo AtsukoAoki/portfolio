@@ -1,0 +1,93 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #111;
+    color: white;
+  }
+  
+  .top-header {
+    background-color: white;
+    color: black;
+    padding: 1em;
+  }
+  
+  .top-header ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2em;
+  }
+  
+  .top-header a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .hero {
+    text-align: center;
+    margin: 2em 0;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    font-weight: bold;
+  }
+  
+  .hero span {
+    display: block;
+    margin-top: 0.5em;
+  }
+  
+  .gallery .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 5px;
+    padding: 1em;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .about {
+    background: #222;
+    padding: 2em;
+  }
+  
+  .about h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+  
+  .about-content {
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+  }
+  
+  .timeline {
+    flex: 2;
+    line-height: 1.6;
+  }
+  
+  .skills {
+    flex: 1;
+  }
+  
+  .skills ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .skills li {
+    background: #333;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
