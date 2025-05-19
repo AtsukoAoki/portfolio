@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creation and Destruction</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">GALLERY</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="gallery">
+      <!-- 画像とテキストのグリッド。以下は一例 -->
+      <div class="grid-item"><img src="img/photo1.jpg" alt="photo1"></div>
+      <div class="grid-item"><img src="img/photo2.jpg" alt="photo2"></div>
+      <div class="grid-item text-large">Creation and</div>
+      <div class="grid-item"><img src="img/photo3.jpg" alt="photo3"></div>
+      <div class="grid-item text-large">Destruction</div>
+      <!-- 必要な数だけ繰り返し -->
+    </section>
+
+    <section class="about">
+      <h2>ABOUT</h2>
+      <div class="about-content">
+        <img src="img/profile.jpg" alt="Profile">
+        <div class="bio">
+          <p>1977　岐阜県生まれ<br>
+          1996　大阪で初めての一人暮らし<br>
+          ・・・（以下略）</p>
+        </div>
+        <div class="skills">
+          <ul>
+            <li>コーディング</li>
+            <li>バナー制作</li>
+            <li>DTPデザイン</li>
+            <li>CMS導入</li>
+            <li>サイト制作</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h2>CONTACT</h2>
+      <form>
+        <label for="name">NAME</label>
+        <input type="text" id="name" name="name">
+
+        <label for="email">EMAIL</label>
+        <input type="email" id="email" name="email">
+
+        <label for="message">MESSAGE</label>
+        <textarea id="message" name="message"></textarea>
+
+        <button type="submit">送信</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>©2024 AtsukoAoki</p>
+  </footer>
+</body>
+</html>
