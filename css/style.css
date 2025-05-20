@@ -30,7 +30,7 @@
   .gallery .image-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(12, 1fr);
+    grid-template-rows: 180px 100px 80px 120px auto;
     gap: 8px;
   }
   .img1 {
