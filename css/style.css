@@ -235,13 +235,6 @@ header nav ul li a {
   margin: 20px;
 }
 
-.title h1 span:first-child {
-  color: #fff;
-}
-
-.title h1 span:last-child {
-  color: red;
-}
 
 .gallery-grid {
   display: grid;
