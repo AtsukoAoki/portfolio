@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -27,13 +29,23 @@
     font-size:1.75rem;
     margin-bottom:1em;
   }
+
+  /* 画像グリッド */
   .gallery .image-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 180px 100px 80px 120px auto;
     gap: 8px;
   }
-  .img1 {
+
+  .gallery .title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 1em;
+    font-family: "Allerta Stencil", sans-serif;
+  }
+
+.img1 {
     grid-row: span 4 / span 4;
 }
 
@@ -116,21 +128,14 @@
   grid-row-start: 9;
 }
 
-  .gallery .title {
-    text-align: center;
-    font-size: 2.5rem;
-    margin-top: 1em;
-    font-family: "Allerta Stencil", sans-serif;
-  }
-
+/* プロフィール */
   .about {
     background: #333;
-    justify-content: center;
     padding:3em;
   }
   .about-content {
     display: flex;
-    
+    justify-content: center;
     margin:30px;
   }
   .about img {
@@ -169,14 +174,18 @@
     justify-content: center;
     text-align: center;
   }
+
+  /*コンタクト */
   .contact {
     background: #555;
-    justify-content: center;
     padding: 3em;
   }
-  .contact form {
+  .contact-content {
     display: flex;
-    
+    justify-content: center;
+    margin:30px;
+  }
+  .contact form {
     flex-direction: column;
     gap: 1em;
     width:500px;
