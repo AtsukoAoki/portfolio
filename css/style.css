@@ -11,17 +11,17 @@
     color: white;
   }
   
-.menu nav ul {
+nav ul {
     display: flex;
     justify-content: flex-end;
     list-style: none;
     padding: 1em;
     background: white;
   }
-.menu nav ul li {
+nav ul li {
     margin-left: 1em;
   }
-.menu nav ul li a {
+nav ul li a {
     color: black;
     text-decoration: none;
   }
