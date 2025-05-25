@@ -30,6 +30,67 @@
     margin-bottom:1em;
   }
 
+  .container {  display: grid;
+    grid-template-columns: 0.6fr 1.3fr 0.4fr 2.5fr 0.7fr 1.5fr 0.4fr 1.7fr 0.5fr 0.4fr 1fr;
+    grid-template-rows: 1fr 1.6fr 0.8fr 0.9fr 2.8fr 0.1fr 2fr 0.8fr 2fr 0.3fr 0.2fr 1.6fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "H001 H001 H002 H002 H002 H002 . . . . ."
+      "H001 H001 H002 H002 H002 H002 H003 H003 H004 H004 H004"
+      "H001 H001 Title01 Title01 Title01 Title01 H003 H003 H004 H004 H004"
+      "H005 H005 H005 H006 H006 H006 H006 Title02 Title02 Title02 Title02"
+      "H005 H005 H005 H006 H006 H006 H006 H007 H007 H008 H008"
+      "H005 H005 H005 H010 H011 H011 H011 H012 H012 H012 H012"
+      "H005 H005 H005 H010 H011 H011 H011 H012 H012 H012 H012"
+      "H009 H009 H009 H010 H011 H011 H011 H014 H014 H014 H014"
+      "H009 H009 H009 H013 H013 H013 H013 H014 H014 H014 H014"
+      "H009 H009 H009 H013 H013 H013 H013 H014 H014 H014 H014"
+      "H015 H015 H015 H016 H016 H017 H017 H014 H014 H014 H014"
+      "H015 H015 H015 H016 H016 H017 H017 H018 H018 H018 H018";
+  }
+  
+  .H001 { grid-area: H001; }
+  
+  .H002 { grid-area: H002; }
+  
+  .H003 { grid-area: H003; }
+  
+  .H004 { grid-area: H004; }
+  
+  .H005 { grid-area: H005; }
+  
+  .H006 { grid-area: H006; }
+  
+  .H007 { grid-area: H007; }
+  
+  .H008 { grid-area: H008; }
+  
+  .H009 { grid-area: H009; }
+  
+  .H010 { grid-area: H010; }
+  
+  .H011 { grid-area: H011; }
+  
+  .H012 { grid-area: H012; }
+  
+  .H013 { grid-area: H013; }
+  
+  .H014 { grid-area: H014; }
+  
+  .H015 { grid-area: H015; }
+  
+  .H016 { grid-area: H016; }
+  
+  .H017 { grid-area: H017; }
+  
+  .H018 { grid-area: H018; }
+  
+  .Title01 { grid-area: Title01; }
+  
+  .Title02 { grid-area: Title02; }
+  
+
   /* 画像グリッド */
   .gallery .image-grid {
     display: grid;
