@@ -34,7 +34,7 @@ nav ul li a {
     display: grid;
     grid-template-columns: 0.5fr 1.3fr 0.4fr 2.5fr 0.7fr 1.5fr 0.4fr 1.7fr 0.5fr 0.4fr 1fr;
     grid-template-rows: 0.7fr 1.9fr 0.8fr 0.9fr 2.8fr 0.1fr 2fr 0.8fr 2fr 0.3fr 0.2fr 1.6fr;
-    gap: 0px 0px;
+    gap: 8px 8px;
     grid-auto-flow: row;
     grid-template-areas:
       "H001 H001 H002 H002 H002 H002 Menu Menu Menu Menu Menu"
@@ -90,14 +90,14 @@ nav ul li a {
   .Title01 {
     grid-area: Title01;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 5rem;
     font-family: "Allerta Stencil", sans-serif;
   }
   
   .Title02 {
     grid-area: Title02;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 5rem;
     font-family: "Allerta Stencil", sans-serif;
   }
   
